@@ -1,0 +1,10 @@
+Teilaufgabe 1: 
+Es wird dir ein beliebiger Geldbetrag in Form von 2.34 gegeben. Zerlege diesen Betrag in die minimalste Anzahl an Euromünzen, die den gegebenen Betrag abbilden. Gib das Ergebnis aus (z.B. console).
+Bsp: [ 0.2,  2, 0.02, 0.1, 0.02 ]
+
+Hier wäre eine saubere Implementierung sehr nett, um Deinen Code etwas beurteilen zu können.
+
+Teilaufgabe 2 Code-Golf: 
+Versuche den Code so kurz wie möglich zu gestalten. 
+Als kleiner Benchmark: Unser interner Rekord liegt in NodeJs bei 124 Characters (Leerzeichen, Zeilenumbrüche uÄ mitgerechnet).
+
