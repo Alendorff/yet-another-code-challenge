@@ -1,5 +1,7 @@
-This is a es6 template string. How should `x` be looking, so this is the result?
+This is a es6 template string. What should be assigned to `x`, such that the two conditions are `true`?
 
-   `${x}` != '' + x  // true
+    let x = ‽‽‽;
+
+   `${x}` !=  '' + x // true
    `${x}` !== '' + x // true
-
+   
