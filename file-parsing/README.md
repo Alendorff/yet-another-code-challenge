@@ -22,6 +22,7 @@ As input we have a database which we collected during a beacon tracking test. Th
 }
 ```
 In order to do further calculations we need a file wich maps the beacon id to an an given antennas array (see ``index.js``, please keep order) with all the recorded dbm values (if the dbm value is missing a standard value of ``-135`` should be assigned). The output for this beacon should look like:
+
 ```
 {
   beacon: '111, 2016-10-26 00:11:00',
@@ -32,8 +33,8 @@ In order to do further calculations we need a file wich maps the beacon id to an
   ]
 }
 ```
-
-Please write a script which outputs the vectors for all beacons (the beacons dont have to be sorted). The input file can be found in ``input.js``. The output can be logged to the console or be written to a file. It should look something like this:
+### Task:
+Please write a script in `index.js` which outputs the vectors for all beacons (the beacons dont have to be sorted). The input file can be found in ``input.js``. The output can be logged to the console or be written to a file. It should look something like this:
 ```
 [{"department":"208, 2016-11-22T09:46:00.000Z","vector":[-92.32518086711575,-68.74636830519334,-42.266007838893046,-135,-77.80792406374334,-19.698948991976884]},{"department":"112, 2016-11-22T09:47:00.00Z","vector":[-84.76679099514944,.....
 ```
