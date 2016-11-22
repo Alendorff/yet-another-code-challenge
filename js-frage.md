@@ -1,4 +1,4 @@
- Das sind es6 Template Strings. Wie muß `x` aussehen, damit so was zu stande kommt?
+This is a es6 template string. How should `x` be looking, so this is the result?
 
    `${x}` != '' + x  // true
    `${x}` !== '' + x // true
