@@ -1,7 +1,6 @@
 # Async Code #
 Suppose you have an API with the following documentation:
 
-(See async-question.js)
 All functions either take a node callback or return a Promise if no callback is
 supplied.
 
