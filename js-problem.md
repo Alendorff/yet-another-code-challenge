@@ -1,8 +1,10 @@
-# Template Strings #
-This is a es6 template string. What should be assigned to `x` such that the two conditions are `true`?
+# Template String Semantics #
+
+This is a es6 template string. What should be assigned to `x` such that there is no console output?
 
     let x = ‽‽‽;
 
-   `${x}` !=  '' + x // true
+    console.assert(`${x}` !=  '' + x, 'Does not work with !=')
 
-   `${x}` !== '' + x // true
+    console.assert(`${x}` !== '' + x, 'Does not work with !==')
+

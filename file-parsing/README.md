@@ -2,7 +2,7 @@
 
 The goal of this exercise is to generate a list that contains all beacons at certain timestamps with their corresponding support vector.
 
-As input we have a database which we collected during a beacon tracking test. The table is made from logs from different wifi antennas. At every timestamp we did a recording of each of this antennas which gives us table entries like this:
+As input we have a database which we collected during a beacon tracking test. The table is made from logs from different wifi antennas. At every timestamp we did a recording of each of these antennas in a way that yields table entries like this:
 
 ```
 { BeaconId: 111,
@@ -21,8 +21,7 @@ As input we have a database which we collected during a beacon tracking test. Th
   timestamp: '2016-10-26 00:11:00'
 }
 ```
-In order to do further calculations we need a file wich maps the beacon id to an an given antennas array (see ``index.js``, please keep order) with all the recorded dbm values (if the dbm value is missing a standard value of ``-135`` should be assigned). The output for this beacon should look like:
-
+In order to do further calculations we need a file wich maps the beacon id + timestamp to a given array of antennas (see ``index.js``, please keep the order in the array) with all the recorded dbm values (if an dbm value is missing a default value of ``-135`` should be assigned). The output for this beacon should look like:
 ```
 {
   beacon: '111, 2016-10-26 00:11:00',
