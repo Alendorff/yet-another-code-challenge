@@ -1,4 +1,8 @@
 'use strict';
+/*
+ * just an example library that you could use for testing purposes your task is to write
+ * the implementation as described in the README.md
+ */
 
 function dbFakeUserRequest(id, callback){
   const user = { name: 'Somebody', roles: [1, 2]};
@@ -9,7 +13,9 @@ function dbFakeUserRequest(id, callback){
                                 ? [null, user]
                                 : [error]));
   }
-  return new Promise((resolve, request) => setImmediate(() => isValidRequest ? resolve(user) : reject(err)));
+  return new Promise((resolve, request) => setImmediate(() => isValidRequest
+    ? resolve(user)
+    : reject(err)));
 }
 
 function dbFakeRoleRequest(id, callback){
@@ -26,11 +32,12 @@ function dbFakeRoleRequest(id, callback){
   }
   if(typeof callback === 'function') {
     return setImmediate(() => callback.apply(null, isValidRequest
-                                ? [null, role]
-                                : [error]));
+      ? [null, role]
+      : [error]));
   }
-  return new Promise((resolve, request) => setImmediate(() => isValidRequest ? resolve(role) : reject(err)));
+  return new Promise((resolve, request) => setImmediate(() => isValidRequest
+    ? resolve(role)
+    : reject(err)));
 }
-
 
 module.exports = { dbFakeUserRequest, dbFakeRoleRequest }
