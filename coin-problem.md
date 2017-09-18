@@ -14,8 +14,8 @@ The Euro coins are:
 Please implement this function.
 
 
-Part2 Code-Golf:
+Part 2 Code-Golf:
 ----------------
 
 Please try to reduce the code to the minimal amount of characters! Spaces, linebreaks etc are counted. 
-Benchmark: In Node.js our record is at 124 characters.
+Benchmark: In Node.js our record is 124 characters.
