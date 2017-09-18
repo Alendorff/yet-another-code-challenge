@@ -1,6 +1,6 @@
 # Template String Semantics #
 
-This is a es6 template string. What should be assigned to `x` such that there is no console output?
+This is an es6 template string. What should be assigned to `x` such that there is no console output?
 
     let x = ‽‽‽;
 
