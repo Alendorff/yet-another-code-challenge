@@ -10,3 +10,5 @@ array with role ids on the `roles` property.
 * `dbFakeRoleRequest(id)` returns a role object with a name on the `name` property.
 
 ** Please write the code to get the user with the id `1` and output the role names. **
+
+There is a file called `api.js` in this directory. You can use it as the api.
