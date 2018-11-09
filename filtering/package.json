@@ -1,0 +1,16 @@
+{
+  "name": "live-coding",
+  "version": "0.0.1",
+  "description": "Testing Code for Inradius GmbH",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*test.js"
+  },
+  "author": "Inradius GmbH",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1"
+  }
+}
