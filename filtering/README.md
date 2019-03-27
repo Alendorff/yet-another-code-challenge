@@ -1,18 +1,12 @@
 Dear applicant,
 
-welcome to our live coding challange!
+welcome to our coding challange!
 
-Here you'll find an example of a piece of production code.
-We want now to see how you are solving problems in real. Therefore an employee of us will be skyping with you and you are sharing your screen.
+Here you'll find an example of a piece of old production code.
 
-Please descripe what you are doing and what you are thinking with our employee.
 
 ```src/filter.js``` is a filter for search results where the additional tasks should be implemented.
 
-- You are allowed to ask us at anytime any question you want.
-- Use your favorite editor
-- Use online ressources as you need for further information
-- The tests must not be modified
 
 
 # Task 1

@@ -1,12 +1,14 @@
 # Template Strings #
 This is a es6 template string. What should be assigned to `x` such that the two conditions are `true`?
 
-    let x = ‽‽‽;
 
-   `${x}` !=  '' + x // true
+```js
+let x = ‽‽‽;
 
-   `${x}` !== '' + x // true
+`${x}` !=  '' + x // true
 
+`${x}` !== '' + x // true
+```
 # Syntax #
 
 (found in a popular library)

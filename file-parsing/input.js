@@ -1,4 +1,4 @@
-const input = [
+exports.input = [
   {"BeaconId":208,"ant_id":201,"dbm_ant":-92.32518086711575,"timestamp":"2016-11-22T09:46:00.000Z"},
   {"BeaconId":208,"ant_id":203,"dbm_ant":-42.266007838893046,"timestamp":"2016-11-22T09:46:00.000Z"},
   {"BeaconId":208,"ant_id":206,"dbm_ant":-19.698948991976884,"timestamp":"2016-11-22T09:46:00.000Z"},

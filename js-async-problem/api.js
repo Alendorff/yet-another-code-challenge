@@ -13,7 +13,7 @@ function dbFakeUserRequest(id, callback){
                                 ? [null, user]
                                 : [error]));
   }
-  return new Promise((resolve, request) => setImmediate(() => isValidRequest
+  return new Promise((resolve, reject) => setImmediate(() => isValidRequest
     ? resolve(user)
     : reject(err)));
 }
@@ -35,7 +35,7 @@ function dbFakeRoleRequest(id, callback){
       ? [null, role]
       : [error]));
   }
-  return new Promise((resolve, request) => setImmediate(() => isValidRequest
+  return new Promise((resolve, reject) => setImmediate(() => isValidRequest
     ? resolve(role)
     : reject(err)));
 }
