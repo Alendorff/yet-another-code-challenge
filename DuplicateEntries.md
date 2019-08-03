@@ -11,17 +11,8 @@ For each option describe how we could fix this behaviour.
   including some race conditions scenarios or something configured in really bad way.
   
   But let's focus here on something simple and obvious.
-  
   Let's assume that you had just single email field which user could fill and send to your server.
-  So if server creates multiple entries of the same user, it's because it doesn't check *properly* for user already exist in database. 
-  So, the first possible reason - no check for dubs at all.
   
-  The other reasons might be related to incorrectly implemented search of dubs. 
-  For example case-sensitivity wasn't considered or string with email wasn't trimmed from leading and ending spaces. 
-  
-  That are the first things I would check I think. 
-  Fixes are obvious here - trim spaces and lowercase values which you use as unique index keys in db, both before storing new data and when querying for it to check for dubs.
-  Though if you have properly described index keys in db you will likely get an error on attempt to store duplicate. 
-  So it's really necessary only to format data in the same way before store it in database.
-
-
+  First of all I would like to see these duplicates, if there are any differences?
+  If no - I would suspect bad index configuration in DB which allows to save duplicated emails.
+  If values are different because of spacing or case of letters - all we need to do is to trim and lowercase email before save into db.

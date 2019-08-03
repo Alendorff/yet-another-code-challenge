@@ -4,13 +4,13 @@
   "description": "Inradius problems for applicants\r ================================",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "https://git.inradius.io/candidates/maxim.git"
   },
-  "author": "Maksim Nesterenko|alendorff@gmail.com",
+  "author": "Maksim Nesterenko <alendorff@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.8.0"

@@ -56,7 +56,6 @@ describe('Filter Test', function() {
     it('should sort the direct matches on top', function() {
       let res = filter(userList, [ 'basti' ]);
       chaiExpect(res).to.have.lengthOf(3);
-      console.log(res)
       chaiExpect(res[0].arrayId).to.be.eql(7);
     });
 

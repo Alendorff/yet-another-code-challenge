@@ -10,6 +10,7 @@ const { dbFakeUserRequest, dbFakeRoleRequest } = require("./api");
     return acc;
   }, []);
 
+  // I do not handle errors here because IDK what to do with them here, so let them to be thrown
   /** @type {Array<{name: string}>} */
   const rolesRes = await Promise.all(userRoles.map(r => dbFakeRoleRequest(r)));
 
