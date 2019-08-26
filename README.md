@@ -1,6 +1,22 @@
-Some solution notes.
+## Original readme:
 
-# Filtering problem
+```
+<companyname> problems for applicants
+================================
+
+Dear applicant,
+
+every file and folder is a problem for you to solve.
+
+If you are a frontend- or fullstack-developer, the css-problem is mandatory.
+
+You can simply write your solution into the files. If you use TDD, please also check-in your (green) testfiles. Use any framework you think is needed.
+
+```
+
+## Some solution notes.
+
+### Filtering problem
 
 For the filtering problem I still changed the tests, because I think it's fine.
 I cheated here probably, but I think this is a really great test task because here I can demonstrate
@@ -10,14 +26,14 @@ how I would act in real life situation. And I can confirm that:
 3) I don't write things which I know already written and fits well
 4) I fix stale tests
 
-So I've seen no point to implement that filtering from scratch and to figure out in old lodashy code.
+So I saw no point to implement that filtering from scratch and to figure out in old lodashy code.
 Fuzzy-search package btw tolerates user typings and that's why I think it's a great thing to apply for filtering stuff.
 
-# js-async-problem
+### js-async-problem
 
 Just do `node ./js-async-problem` to get the output
 
-# Coin problem
+### Coin problem
 
 I just ignored the Part 2 here because no thanks :)
 I don't think it's very fun to do. Webpack does such things pretty good I believe. 
